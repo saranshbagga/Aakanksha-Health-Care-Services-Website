@@ -5,7 +5,7 @@ import { FaFacebook,FaLinkedin,FaInstagramSquare,FaTwitterSquare } from "react-i
 const Footer = () => {
     return (
     <>
-      <Container className="footer pt-4" fluid="lg">
+      <Container className="footer pt-4 w3-animate-zoom" fluid="lg">
         <Row>
           <Col sm>
               <h6 className="text-uppercase font-weight-bold text-center">About</h6>
@@ -56,16 +56,16 @@ const Footer = () => {
           <Col sm>
             <Row className="social-media">
               <Col>
-                <FaFacebook/>
+                <FaFacebook color="#3b5998"/>
               </Col>
               <Col>
-                 <FaLinkedin/>
+                 <FaLinkedin color="#0e76a8"/>
               </Col>
               <Col>
-                 <FaInstagramSquare/>
+                 <FaInstagramSquare color="#fb3958"/>
               </Col>
               <Col>
-                <FaTwitterSquare/>
+                <FaTwitterSquare color="#00acee"/>
               </Col>
             </Row>
           </Col>

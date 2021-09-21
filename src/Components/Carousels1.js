@@ -1,13 +1,13 @@
 import React from 'react'
-import banner1 from '../Images/banner6.png'
+import banner1 from '../Images/banner1.jpg'
 
-import banner2 from '../Images/banner4.png'
-import banner3 from '../Images/banner5.png'
+import banner2 from '../Images/banner2.jpg'
+import banner3 from '../Images/banner3.jpg'
 
 const Carousels = () => {
     return (
         <>
-            <div id="carouselExampleIndicators" className="carousel slide w3-animate-zoom" data-bs-ride="carousel">
+            <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to={0} className="active" aria-current="true" aria-label="Slide 1" />
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to={1} aria-label="Slide 2" />
